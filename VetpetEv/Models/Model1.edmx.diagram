@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="48c172800d1c418f851271c13790f6c8" Name="Diagram1">
+        <EntityTypeShape EntityType="vetPetModel.Cliente" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="vetPetModel.Detalle_consulta" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="vetPetModel.Especie" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="vetPetModel.Hora" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="vetPetModel.Mascota" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vetPetModel.Raza" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="vetPetModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="8.625" IsExpanded="true" />
+        <AssociationConnector Association="vetPetModel.FK_Hora_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="vetPetModel.FK_Mascota_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="vetPetModel.FK_Detalle_consulta_Hora" ManuallyRouted="false" />
+        <AssociationConnector Association="vetPetModel.FK_Detalle_consulta_Mascota" ManuallyRouted="false" />
+        <AssociationConnector Association="vetPetModel.FK_Mascota_Especie" ManuallyRouted="false" />
+        <AssociationConnector Association="vetPetModel.FK_Mascota_Raza" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
